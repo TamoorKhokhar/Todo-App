@@ -1,0 +1,79 @@
+body {
+  background-color: #9266ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  text-align: center;
+  background-color: #3f3160;
+  border: 1px solid black;
+  width: 40vw;
+  margin-top: 10vh;
+}
+.heading {
+  color: rgb(245, 85, 22);
+}
+.heading:hover {
+  color: white;
+}
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+}
+.inputfield {
+  width: 30vw;
+  height: 5vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: rgb(245, 85, 22);
+  font-weight: bold;
+  border: 2px solid rgb(245, 85, 22);
+}
+.addbtn {
+  background-color: rgb(245, 85, 22);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 8vw;
+  height: 6vh;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.addbtn:hover {
+  background-color: gray;
+  color: white;
+}
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.Edit {
+  background-color: rgb(245, 85, 22);
+  width: 5vw;
+  height: 5vh;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  right: 80px;
+}
+.Delete {
+  background-color: rgb(245, 85, 22);
+  width: 5vw;
+  height: 5vh;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  right: 7px;
+}
